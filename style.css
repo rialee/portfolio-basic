@@ -21,7 +21,16 @@ footer{
 }
 
 
+/* Nav Bar Adjustments */
+
+.h1{
+    font-size: xx-large;
+    background-color: hotpink;
+}
+
 /* Index aka About Me aka Main Landing page */
+
+
 
 .about-me-container{
     border: 2px solid black;
@@ -30,8 +39,8 @@ footer{
 
 .img-about-me{
     margin-right: 20px;
-    width:350px;
-    height:350px;
+    width:300px;
+    height:300px;
     float:left;
 }
 
