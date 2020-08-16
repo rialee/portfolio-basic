@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     <!-- Main Landing Page -->
-    <title>About Page</title>
+    <title>Contact Page</title>
 
     <!-- Bootstrap Stylesheet-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -13,38 +13,67 @@
     <!-- Font Aewsome Link -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- google font link -->
+    <!-- montserrat -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap">
+
+
+
     <!-- My CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- Javascript Link -->
-  
+
 
 </head>
 
 <body>
     <!-- Top Navigation Bar Main Title -->
-    <h1>Victoria Lee</h1>
+    <nav>
+        <h1>Victoria Lee</h1>
 
-    <!-- Navigation links -->
-    <div>Contact</div>
-    <div>Portfolio</div>
-    <div>About</div>
+        <!-- Navigation links -->
+        <div>Contact</div>
+        <div>Portfolio</div>
+        <div>About</div>
+
+    </nav>
+
 
     <!-- Main Container for Contact Form -->
-    <section class="container">
+    <section class=" container contact-container">
 
         <!-- Form title -->
         <h2>Contact</h2>
 
-        <!-- Information Collection form -->
-        <div>Name</div>
-        <div>Email</div>
-        <div>Message</div>
-        <div>Submit</div>
+        <!-- Information Collection form (From Bootstrap)-->
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="email" class="form-control" placeholder="Name">
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Email">
+            </div>
+
+            <div class="form-group">
+                <label for="Message">Message</label>
+                <textarea class="form-control" id="textarea" rows="4" placeholder="Message"></textarea>
+            </div>
+
+            <button type="submit" class="button">Submit</button>
+
+        </form>
 
     </section>
-    
-    <footer></footer>
+
+
+
+    <br><br><br>
+
+    <footer>* 2020 *</footer>
 
 </body>
 
