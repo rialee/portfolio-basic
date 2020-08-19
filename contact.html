@@ -32,7 +32,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav m-auto mt-2 mt-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">About</a>
                 </li>
@@ -47,34 +47,53 @@
     </nav>
 
 
-    <!-- Main Container for Contact Form -->
-    <section class=" container contact-container">
+    <!-- Main Section-->
+    <section>
+        <!-- Container for Contact Form -->
+        <div class="container">
 
-        <!-- Form title -->
-        <header>
-        <h2>Contact</h2> </header>
+            <!-- main row -->
+            <div class="row">
 
-        <!-- Information Collection form (From Bootstrap)-->
-        <form>
-            <div class="form-group">
-                <label>Name</label>
-                <input type="email" class="form-control" placeholder="Name">
+                <!-- col 1 about me-->
+                <div class="col col-md-8 contact-container">
+
+                    <!-- Form title -->
+                    <header>
+                        <header class="h2">Contact</header>
+                    </header>
+
+                    <!-- Information Collection form (From Bootstrap)-->
+                    <form>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="email" class="form-control" placeholder="Name">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="Message">Message</label>
+                            <textarea class="form-control" id="textarea" rows="4" placeholder="Message"></textarea>
+                        </div>
+
+                        <button type="submit" class="button">Submit</button>
+
+                        <p></p>
+
+                    </form>
+                </div>
+
             </div>
 
-            <div class="form-group">
-                <label>Email</label>
-                <input type="email" class="form-control" placeholder="Email">
-            </div>
+        </div>
 
-            <div class="form-group">
-                <label for="Message">Message</label>
-                <textarea class="form-control" id="textarea" rows="4" placeholder="Message"></textarea>
-            </div>
 
-            <button type="submit" class="button">Submit</button>
-
-        </form>
     </section>
+
 
     <br><br><br>
 

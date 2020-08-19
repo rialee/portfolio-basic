@@ -3,8 +3,8 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
-h2{
-    padding: 20px;
+.h2{
+    padding: 15px;
     border-bottom: 3px solid rgb(231, 231, 231);
 }
 
@@ -12,6 +12,8 @@ footer{
     border-top: 3px solid hotpink;
     text-align: center;
 }
+
+/* Button User Response */
 
 button:hover{
     background-color: rgb(78, 255, 102);
@@ -21,18 +23,19 @@ button:active{
     background-color: rgb(59, 197, 78);
 }
 
+button{
+    width:100px;
+    height:50px;
+}
 
 /* Nav Bar Adjustments */
 .h1{
     font-size: xx-large;
     background-color: hotpink;
+    margin-bottom: 3px solid gray;
 }
 
-/* Index aka About Me aka Main Landing page */
-.about-me-container{
-    border: 2px solid black;
-    overflow: auto;
-}
+/* Index aka About Me page */
 
 .img-about-me{
     margin-right:20px;
@@ -42,34 +45,35 @@ button:active{
 }
 
 /* Portfolio Page */
+* {
+    box-sizing: border-box;
+}
 
-.portfolio-container{
-    border: 3px solid hotpink;
+.column {
+    float: right;
+    width: 33.33%;
     padding: 5px;
 }
 
-/* Portfolio image set */
-.img-portfolio{
-    width: 300px;
-    height: 300px;
-    margin: 5px;
-    border: 3px solid rgb(236, 236, 236);
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
+.img-portfolio {
+    padding: 10px
+}
+
+/* Image hover response */
 .img-portfolio:hover{
     border: 3px solid  rgb(78, 255, 102);
   }
 
-
-
 /* Contact Page */
 .contact-container{
-    background-color: hotpink;
+    border: 3px solid hotpink;
 }
 
-/* Submit Button in Contact Page */
-button{
-    width:100px;
-    height:50px;
-}
 
