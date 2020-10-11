@@ -11,7 +11,7 @@ Areas of focus:
 
 
 Project Repository Link:
-https://github.com/victoriacmlee/responsive-portfolio
+https://github.com/victoriacmlee/portfolio
 
 Project Web Link:
 https://victoriacmlee.github.io/portfolio/
