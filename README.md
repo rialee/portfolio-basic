@@ -14,6 +14,6 @@ Project Repository Link:
 https://github.com/victoriacmlee/responsive-portfolio
 
 Project Web Link:
-https://victoriacmlee.github.io/responsive-portfolio/
+https://victoriacmlee.github.io/portfolio/
 
 Project Screenshots in images folder.
