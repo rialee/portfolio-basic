@@ -1,79 +1,37 @@
-/* Master Style for All Pages */
-html{
-    font-family: 'Montserrat', sans-serif;
+.text-h1{
+    font-size: 5rem;
 }
 
-.h2{
-    padding: 15px;
-    border-bottom: 3px solid rgb(231, 231, 231);
+.text-h2{
+    font-size: 3rem ;
+}
+.hide{
+    display: none;
 }
 
-footer{
-    border-top: 3px solid hotpink;
-    text-align: center;
+#hover-work:hover{
+    text-decoration:underline red;
+    color: red;
+
 }
 
-/* Button User Response */
-
-button:hover{
-    background-color: rgb(78, 255, 102);
+#hover-about:hover{
+    text-decoration:underline blue;
+    color: blue;
 }
 
-button:active{
-    background-color: rgb(59, 197, 78);
+#hover-design:hover{
+    text-decoration:underline red;
+    color: red;
 }
 
-button{
-    width:100px;
-    height:50px;
+#hover-code:hover{
+    text-decoration:underline blue;
+    color: blue;
 }
 
-/* Nav Bar Adjustments */
-.h1{
-    font-size: xx-large;
-    background-color: hotpink;
-    margin-bottom: 3px solid gray;
+#hover-here:hover{
+    text-decoration:underline rgb(248, 236, 72);
+    color:rgb(248, 236, 72);
+
 }
-
-/* Index aka About Me page */
-
-.img-about-me{
-    margin-right:20px;
-    width:300px;
-    height:300px;
-    float:left;
-}
-
-/* Portfolio Page */
-* {
-    box-sizing: border-box;
-}
-
-.column {
-    float: right;
-    width: 33.33%;
-    padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.img-portfolio {
-    padding: 10px
-}
-
-/* Image hover response */
-.img-portfolio:hover{
-    border: 3px solid  rgb(78, 255, 102);
-  }
-
-/* Contact Page */
-.contact-container{
-    border: 3px solid hotpink;
-}
-
-
