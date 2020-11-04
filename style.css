@@ -9,6 +9,10 @@
     display: none;
 }
 
+.icons{
+    font-size: 2rem;
+}
+
 #hover-work:hover{
     text-decoration:underline red;
     color: red;

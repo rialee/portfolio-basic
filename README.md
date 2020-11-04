@@ -14,6 +14,6 @@ Project Repository Link:
 https://github.com/victoriacmlee/portfolio
 
 Project Web Link:
-https://victoriacmlee.github.io/portfolio/
+https://rialee.github.io/portfolio/
 
 Project Screenshots in images folder.
