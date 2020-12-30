@@ -9,7 +9,7 @@
     display: none;
 }
 
-.icons{
+.contact-icons{
     font-size: 2rem;
 }
 
@@ -38,3 +38,9 @@
     text-decoration:underline rgb(248, 236, 72);
     color:rgb(248, 236, 72);
 }
+
+.icons{
+    text-align: center;
+    padding: 3rem;
+}
+
