@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- google font link -->
-    <!-- montserrat -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap" rel="stylesheet">
 
     <!-- My CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -25,7 +25,9 @@
 <body>
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <a class="navbar-brand h1" href="index.html">Victoria Lee</a>
+        <a class="navbar-brand h1" href="index.html">
+            &#128075;
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,13 +36,15 @@
         <div class="collapse navbar-collapse align-right" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About</a>
+                    <a class="nav-link" href="index.html">
+                        <i class="fas fa-address-card"></i>
+                    </a>
                 </li>
                 <li class="nav-item active">
                     <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="contact.html"><i class="fas fa-phone-square"></i></a>
                 </li>
             </ul>
         </div>
@@ -48,7 +52,42 @@
 
     <!-- main section -->
 
+    <div class="container row">
 
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Brag a Burger</h5>
+                <p class="card-text">A hamburger based social platform where users can curate a
+                    favorite burger and brag their proud creation with the world before virtually enjoy it!
+                </p>
+                <a href="https://brag-a-burger.herokuapp.com/" class="btn btn-light">See Project
+                    <span>&#10141;</span></a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Extra Credit</h5>
+                <p class="card-text">A financial management application where one can optimize credit
+                    card benefits as well as learn about credit.
+                </p>
+                <a href="https://dashboard.heroku.com/apps/extra-credit-app" class="btn btn-light">See Project <span>&#10141;</span></a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Destination Dashboard</h5>
+                <p class="card-text">A travel lifestyle application that allows the user to input destination
+                    upon arrival and be presented with all the basic information/travel tips, popular attractions and
+                    restaurants in the area so that they can enjoy my stay as soon as they land.
+                </p>
+                <a href="https://adilh621.github.io/Destination-Dashboard/dashboard.html" class="btn btn-light">See Project <span>&#10141;</span></a>
+            </div>
+        </div>
+
+    </div>
 
 
     <!-- JS links -->
