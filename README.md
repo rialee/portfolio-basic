@@ -11,7 +11,7 @@ Areas of focus:
 
 
 Project Repository Link:
-https://github.com/victoriacmlee/portfolio
+https://github.com/rialee/portfolio
 
 Project Web Link:
 https://rialee.github.io/portfolio/
