@@ -1,45 +1,45 @@
-.text-h1{
+.text-h1 {
     font-size: 4rem;
 }
 
-.text-h2{
-    font-size: 3rem ;
+.text-h2 {
+    font-size: 3rem;
 }
-.hide{
+
+.hide {
     display: none;
 }
 
-.contact-icons{
+.contact-icons {
     font-size: 2rem;
 }
 
-#hover-work:hover{
-    text-decoration:underline red;
-    color: red;
-
-}
-
-#hover-about:hover{
-    text-decoration:underline blue;
-    color: blue;
-}
-
-#hover-design:hover{
-    text-decoration:underline red;
+#hover-work:hover {
+    text-decoration: underline red;
     color: red;
 }
 
-#hover-code:hover{
-    text-decoration:underline blue;
+#hover-about:hover {
+    text-decoration: underline blue;
     color: blue;
 }
 
-#hover-here:hover{
-    text-decoration:underline rgb(248, 236, 72);
-    color:rgb(248, 236, 72);
+#hover-design:hover {
+    text-decoration: underline red;
+    color: red;
 }
 
-.icons{
+#hover-code:hover {
+    text-decoration: underline blue;
+    color: blue;
+}
+
+#hover-here:hover {
+    text-decoration: underline rgb(248, 236, 72);
+    color: rgb(248, 236, 72);
+}
+
+.icons {
     text-align: center;
     padding: 3rem;
 }
